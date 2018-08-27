@@ -10,24 +10,35 @@ https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.htm
 配置完后再命令窗口输入cwebp，可查看插件是否配置OK
 
 ### 引入
+```
 maven {url uri('https://raw.githubusercontent.com/xmuyzy/maven-repos/master')}
         
 classpath 'com.oi.android.plugin.WebpConvert:webpconvert:1.0.0'
 
 apply plugin: 'com.oi.gradle'
-
+```
 ### 配置
+```
 webpinfo {    
 q = 75  //压缩比例 0～100，100是无损压缩，默认75    
 skipDebug = true //debug下是否开启webp压缩 默认不开启    
 isShowLog = true //是否打开log    
 }
+```
+
+### 白名单
+在与src同级的目录下添加名为webp_white_list.txt的文件 此文件提供白名单功能 可以设置哪些文件不会被转换为webp文件，配置时，一个文件名为一行，如
+```
+ic_launcher.png
+```
 
 ### 输出
 project.buildDir/outputs/webpcompressoutput.txt 文件中会输出这次替换的结果
 
 ### 其他
 android-gradle 3.0.0之后：    
-在工程的gradle.properties中添加    
+在工程的gradle.properties中添加 
+```   
 android.enableAapt2=false    
+```
 
