@@ -10,7 +10,7 @@ https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.htm
 
 配置完后再命令窗口输入cwebp，可查看插件是否配置OK
 
-### 引入
+###引入
 
 maven {
             url uri('https://raw.githubusercontent.com/xmuyzy/maven-repos/master')
@@ -32,9 +32,12 @@ webpinfo {
 ### 输出
 
 project.buildDir/outputs/webpcompressoutput.txt 文件中会输出这次替换的结果
-### 其他
-android-gradle 3.0.0之后：
-在工程的gradle.properties中添加
-android.enableAapt2=false
 
+### 其他
+
+android-gradle 3.0.0之后：
+
+在工程的gradle.properties中添加
+
+android.enableAapt2=false
 
