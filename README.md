@@ -13,7 +13,7 @@ https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.htm
 ```
 maven {url uri('https://raw.githubusercontent.com/xmuyzy/maven-repos/master')}
         
-classpath 'com.oi.android.plugin.WebpConvert:webpconvert:1.0.0'
+classpath 'com.oi.android.plugin.WebpConvert:webpconvert:1.1.0'
 
 apply plugin: 'com.oi.gradle'
 ```
