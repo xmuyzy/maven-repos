@@ -7,6 +7,10 @@ webp相对于png 和 jpg来说，拥有更高的压缩比，并且提供有损�
 需要用到webp转换插件，请下载对应的版本并配置好环境变量
 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
 
+建议使用0.4.1版本，最新版不知道什么原因效率非常慢
+也可以网盘下载
+链接:https://pan.baidu.com/s/1hz-r1Mu7_syCj7Nrdc9mcg  密码:pw1d
+
 配置完后再命令窗口输入cwebp，可查看插件是否配置OK
 
 ### 引入
