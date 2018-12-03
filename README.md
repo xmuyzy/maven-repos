@@ -9,7 +9,8 @@ https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.htm
 
 建议使用0.4.1版本，最新版不知道什么原因效率非常慢
 也可以网盘下载
-链接:https://pan.baidu.com/s/1hz-r1Mu7_syCj7Nrdc9mcg  密码:pw1d
+链接:https://pan.baidu.com/s/1hz-r1Mu7_syCj7Nrdc9mcg  
+密码:pw1d
 
 配置完后再命令窗口输入cwebp，可查看插件是否配置OK
 
